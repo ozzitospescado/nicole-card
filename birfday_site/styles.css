@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #9cdefe;
+  text-align: center;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nicole-img {
+  width: 600px;
+  border: 10px solid #e4c1f9;
+  border-radius: 50%;
+}
+.gift-img {
+  margin: 0 auto;
+  background-image: url("images/gift-cover.jpg");
+  height: 400px;
+  width: 600px;
+  border: 8px solid #f9f9f9;
+  border-radius: 2%;
+  background-size: cover;
+}
+h1 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+#bday-age {
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+#bday-hint {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+
+#gift-img-cheers:hover {
+  background: url("images/pit_rub.gif");
+  background-size: cover;
+}
+.whoo {
+  font-size: 4rem;
+}
+@media only screen and (max-width: 600px) {
+  .nicole-img {
+    display: block;
+    width: 95%;
+
+    margin: 0 auto 20px auto;
+    border: 10px solid #e4c1f9;
+    border-radius: 50%;
+  }
+  .gift-img {
+    display: block;
+    margin: 0 auto 60px auto;
+
+    background-image: url("images/gift-cover.jpg");
+    height: 275px;
+    width: 100%;
+    background-size: cover;
+
+    border: 8px solid #f9f9f9;
+    border-radius: 2%;
+  }
+  #gift-img-cheers:hover {
+    background: url("images/pit_rub.gif");
+    background-size: cover;
+  }
+  #bday-age {
+    margin-bottom: 25px;
+  }
+  #bday-hint {
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .whoo {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .ribbon {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+}
